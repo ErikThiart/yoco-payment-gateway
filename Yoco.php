@@ -96,7 +96,7 @@ class Yoco
         return $this->lineItems;
     }
 
-    public function checkout($amount, $note = '', $additionalNote = '', transactionId = '')
+    public function checkout($amount, $note = '', $additionalNote = '', $transactionId = '')
     {
 
         // Construct checkout data
