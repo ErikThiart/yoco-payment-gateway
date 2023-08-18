@@ -3,6 +3,15 @@ namespace App\Classes;
 
 use App\Classes\Config\Config;
 
+/**
+ * Yoco Class
+ * 
+ * This class provides functionality for integrating with the Yoco payment gateway.
+ * It allows you to create and manage checkouts, add line items, and perform API requests.
+ * 
+ * @package App\Classes
+ */
+
 class Yoco
 {
     private $id; // not always needed
